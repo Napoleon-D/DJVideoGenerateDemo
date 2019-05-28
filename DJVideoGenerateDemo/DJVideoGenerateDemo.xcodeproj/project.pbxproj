@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652801402230FDC6009FB6B1 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528013E2230FDC6009FB6B1 /* NSString+Tool.m */; };
+		65280143223114DD009FB6B1 /* NSURL+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 65280141223114DD009FB6B1 /* NSURL+Extension.m */; };
+		65280147223253BD009FB6B1 /* 01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65280145223253BD009FB6B1 /* 01.gif */; };
+		65280148223253BD009FB6B1 /* 02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65280146223253BD009FB6B1 /* 02.gif */; };
+		6528014D223794B1009FB6B1 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65280149223794B1009FB6B1 /* 03.jpg */; };
+		6528014E223794B1009FB6B1 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6528014A223794B1009FB6B1 /* 05.jpg */; };
+		6528014F223794B1009FB6B1 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6528014B223794B1009FB6B1 /* 04.jpg */; };
+		65280150223794B1009FB6B1 /* 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6528014C223794B1009FB6B1 /* 06.jpg */; };
+		652801532237ACB5009FB6B1 /* DJAudioHandleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 652801522237ACB5009FB6B1 /* DJAudioHandleManager.m */; };
+		652801562237AD1C009FB6B1 /* DJAudioPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 652801552237AD1C009FB6B1 /* DJAudioPathManager.m */; };
+		652801592237B36A009FB6B1 /* DJVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 652801582237B36A009FB6B1 /* DJVideo.m */; };
+		6528015D2237E331009FB6B1 /* despacito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6528015C2237E331009FB6B1 /* despacito.mp3 */; };
+		6559B983225DCED600FF4D5B /* DJAudioDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6559B982225DCED600FF4D5B /* DJAudioDownloadManager.m */; };
+		658AC3A621DCB4E7002EDD43 /* haha.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 658AC3A521DCB4E7002EDD43 /* haha.jpeg */; };
+		6593B7E42271AD6400E4B204 /* MainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593B7E32271AD6400E4B204 /* MainTableView.m */; };
+		65D2144B223A4BDE003B0100 /* DJCompleteVideoPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D2144A223A4BDE003B0100 /* DJCompleteVideoPathManager.m */; };
+		65D3F52D21D229DD0067991F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D3F52C21D229DD0067991F /* AppDelegate.m */; };
+		65D3F53521D229DF0067991F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D3F53421D229DF0067991F /* Assets.xcassets */; };
+		65D3F53821D229DF0067991F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D3F53621D229DF0067991F /* LaunchScreen.storyboard */; };
+		65D3F53B21D229DF0067991F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D3F53A21D229DF0067991F /* main.m */; };
+		65D3F54321D22A830067991F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D3F54121D22A830067991F /* MainViewController.m */; };
+		65D3F54921D22AA00067991F /* DJVideoGenerateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D3F54621D22AA00067991F /* DJVideoGenerateManager.m */; };
+		65D3F54A21D22AA00067991F /* DJVideoPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D3F54721D22AA00067991F /* DJVideoPathManager.m */; };
+		F2A6ED4D0DD872909242E903 /* libPods-DJVideoGenerateDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9439A69D251587A87DD3089E /* libPods-DJVideoGenerateDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23AF9428FFDAE00B6AE964F1 /* Pods-DJVideoGenerateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJVideoGenerateDemo.release.xcconfig"; path = "Target Support Files/Pods-DJVideoGenerateDemo/Pods-DJVideoGenerateDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6528013E2230FDC6009FB6B1 /* NSString+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
+		6528013F2230FDC6009FB6B1 /* NSString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
+		65280141223114DD009FB6B1 /* NSURL+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extension.m"; sourceTree = "<group>"; };
+		65280142223114DD009FB6B1 /* NSURL+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extension.h"; sourceTree = "<group>"; };
+		65280145223253BD009FB6B1 /* 01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 01.gif; sourceTree = "<group>"; };
+		65280146223253BD009FB6B1 /* 02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 02.gif; sourceTree = "<group>"; };
+		65280149223794B1009FB6B1 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		6528014A223794B1009FB6B1 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
+		6528014B223794B1009FB6B1 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
+		6528014C223794B1009FB6B1 /* 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 06.jpg; sourceTree = "<group>"; };
+		652801512237ACB5009FB6B1 /* DJAudioHandleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJAudioHandleManager.h; sourceTree = "<group>"; };
+		652801522237ACB5009FB6B1 /* DJAudioHandleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJAudioHandleManager.m; sourceTree = "<group>"; };
+		652801542237AD1C009FB6B1 /* DJAudioPathManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJAudioPathManager.h; sourceTree = "<group>"; };
+		652801552237AD1C009FB6B1 /* DJAudioPathManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJAudioPathManager.m; sourceTree = "<group>"; };
+		652801572237B36A009FB6B1 /* DJVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJVideo.h; sourceTree = "<group>"; };
+		652801582237B36A009FB6B1 /* DJVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJVideo.m; sourceTree = "<group>"; };
+		6528015C2237E331009FB6B1 /* despacito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = despacito.mp3; sourceTree = "<group>"; };
+		6559B981225DCED600FF4D5B /* DJAudioDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJAudioDownloadManager.h; sourceTree = "<group>"; };
+		6559B982225DCED600FF4D5B /* DJAudioDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJAudioDownloadManager.m; sourceTree = "<group>"; };
+		658AC3A521DCB4E7002EDD43 /* haha.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haha.jpeg; sourceTree = "<group>"; };
+		6593B7E22271AD6400E4B204 /* MainTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableView.h; sourceTree = "<group>"; };
+		6593B7E32271AD6400E4B204 /* MainTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableView.m; sourceTree = "<group>"; };
+		65D21449223A4BDE003B0100 /* DJCompleteVideoPathManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJCompleteVideoPathManager.h; sourceTree = "<group>"; };
+		65D2144A223A4BDE003B0100 /* DJCompleteVideoPathManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJCompleteVideoPathManager.m; sourceTree = "<group>"; };
+		65D3F52821D229DD0067991F /* DJVideoGenerateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJVideoGenerateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D3F52B21D229DD0067991F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65D3F52C21D229DD0067991F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65D3F53421D229DF0067991F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D3F53721D229DF0067991F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65D3F53921D229DF0067991F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D3F53A21D229DF0067991F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65D3F54121D22A830067991F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		65D3F54221D22A830067991F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		65D3F54521D22AA00067991F /* DJVideoPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJVideoPathManager.h; sourceTree = "<group>"; };
+		65D3F54621D22AA00067991F /* DJVideoGenerateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJVideoGenerateManager.m; sourceTree = "<group>"; };
+		65D3F54721D22AA00067991F /* DJVideoPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJVideoPathManager.m; sourceTree = "<group>"; };
+		65D3F54821D22AA00067991F /* DJVideoGenerateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJVideoGenerateManager.h; sourceTree = "<group>"; };
+		65D3F54B21D22B5A0067991F /* DJVideoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJVideoHeader.h; sourceTree = "<group>"; };
+		9439A69D251587A87DD3089E /* libPods-DJVideoGenerateDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJVideoGenerateDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3DF94C3A51F35E394FCDE9 /* Pods-DJVideoGenerateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJVideoGenerateDemo.debug.xcconfig"; path = "Target Support Files/Pods-DJVideoGenerateDemo/Pods-DJVideoGenerateDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65D3F52521D229DD0067991F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A6ED4D0DD872909242E903 /* libPods-DJVideoGenerateDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D1DB5844600056AE445C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9439A69D251587A87DD3089E /* libPods-DJVideoGenerateDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		463F5E482A38996D310E57CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB3DF94C3A51F35E394FCDE9 /* Pods-DJVideoGenerateDemo.debug.xcconfig */,
+				23AF9428FFDAE00B6AE964F1 /* Pods-DJVideoGenerateDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6528013D2230FD57009FB6B1 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				6528013F2230FDC6009FB6B1 /* NSString+Tool.h */,
+				6528013E2230FDC6009FB6B1 /* NSString+Tool.m */,
+				65280142223114DD009FB6B1 /* NSURL+Extension.h */,
+				65280141223114DD009FB6B1 /* NSURL+Extension.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		65280144223253B3009FB6B1 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				6528015C2237E331009FB6B1 /* despacito.mp3 */,
+				65280145223253BD009FB6B1 /* 01.gif */,
+				65280146223253BD009FB6B1 /* 02.gif */,
+				65280149223794B1009FB6B1 /* 03.jpg */,
+				6528014B223794B1009FB6B1 /* 04.jpg */,
+				6528014A223794B1009FB6B1 /* 05.jpg */,
+				6528014C223794B1009FB6B1 /* 06.jpg */,
+				658AC3A521DCB4E7002EDD43 /* haha.jpeg */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		65D3F51F21D229DD0067991F = {
+			isa = PBXGroup;
+			children = (
+				65D3F52A21D229DD0067991F /* DJVideoGenerateDemo */,
+				65D3F52921D229DD0067991F /* Products */,
+				463F5E482A38996D310E57CB /* Pods */,
+				05D1DB5844600056AE445C97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65D3F52921D229DD0067991F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65D3F52821D229DD0067991F /* DJVideoGenerateDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65D3F52A21D229DD0067991F /* DJVideoGenerateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				65280144223253B3009FB6B1 /* source */,
+				65D3F52B21D229DD0067991F /* AppDelegate.h */,
+				65D3F52C21D229DD0067991F /* AppDelegate.m */,
+				65D3F54221D22A830067991F /* MainViewController.h */,
+				65D3F54121D22A830067991F /* MainViewController.m */,
+				6593B7E22271AD6400E4B204 /* MainTableView.h */,
+				6593B7E32271AD6400E4B204 /* MainTableView.m */,
+				65D3F54421D22AA00067991F /* DJVideoGenerate */,
+				65D3F53421D229DF0067991F /* Assets.xcassets */,
+				65D3F53621D229DF0067991F /* LaunchScreen.storyboard */,
+				65D3F53921D229DF0067991F /* Info.plist */,
+				65D3F53A21D229DF0067991F /* main.m */,
+			);
+			path = DJVideoGenerateDemo;
+			sourceTree = "<group>";
+		};
+		65D3F54421D22AA00067991F /* DJVideoGenerate */ = {
+			isa = PBXGroup;
+			children = (
+				6528013D2230FD57009FB6B1 /* tools */,
+				652801572237B36A009FB6B1 /* DJVideo.h */,
+				652801582237B36A009FB6B1 /* DJVideo.m */,
+				65D3F54821D22AA00067991F /* DJVideoGenerateManager.h */,
+				65D3F54621D22AA00067991F /* DJVideoGenerateManager.m */,
+				652801512237ACB5009FB6B1 /* DJAudioHandleManager.h */,
+				652801522237ACB5009FB6B1 /* DJAudioHandleManager.m */,
+				6559B981225DCED600FF4D5B /* DJAudioDownloadManager.h */,
+				6559B982225DCED600FF4D5B /* DJAudioDownloadManager.m */,
+				65D3F54521D22AA00067991F /* DJVideoPathManager.h */,
+				65D3F54721D22AA00067991F /* DJVideoPathManager.m */,
+				652801542237AD1C009FB6B1 /* DJAudioPathManager.h */,
+				652801552237AD1C009FB6B1 /* DJAudioPathManager.m */,
+				65D21449223A4BDE003B0100 /* DJCompleteVideoPathManager.h */,
+				65D2144A223A4BDE003B0100 /* DJCompleteVideoPathManager.m */,
+				65D3F54B21D22B5A0067991F /* DJVideoHeader.h */,
+			);
+			path = DJVideoGenerate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65D3F52721D229DD0067991F /* DJVideoGenerateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D3F53E21D229DF0067991F /* Build configuration list for PBXNativeTarget "DJVideoGenerateDemo" */;
+			buildPhases = (
+				AEAB3EBB37390BE12ED59C2D /* [CP] Check Pods Manifest.lock */,
+				65D3F52421D229DD0067991F /* Sources */,
+				65D3F52521D229DD0067991F /* Frameworks */,
+				65D3F52621D229DD0067991F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJVideoGenerateDemo;
+			productName = DJVideoGenerateDemo;
+			productReference = 65D3F52821D229DD0067991F /* DJVideoGenerateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65D3F52021D229DD0067991F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Tommy;
+				TargetAttributes = {
+					65D3F52721D229DD0067991F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 65D3F52321D229DD0067991F /* Build configuration list for PBXProject "DJVideoGenerateDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65D3F51F21D229DD0067991F;
+			productRefGroup = 65D3F52921D229DD0067991F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65D3F52721D229DD0067991F /* DJVideoGenerateDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65D3F52621D229DD0067991F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6528014D223794B1009FB6B1 /* 03.jpg in Resources */,
+				6528014F223794B1009FB6B1 /* 04.jpg in Resources */,
+				6528014E223794B1009FB6B1 /* 05.jpg in Resources */,
+				65280150223794B1009FB6B1 /* 06.jpg in Resources */,
+				65280148223253BD009FB6B1 /* 02.gif in Resources */,
+				65D3F53821D229DF0067991F /* LaunchScreen.storyboard in Resources */,
+				65D3F53521D229DF0067991F /* Assets.xcassets in Resources */,
+				658AC3A621DCB4E7002EDD43 /* haha.jpeg in Resources */,
+				65280147223253BD009FB6B1 /* 01.gif in Resources */,
+				6528015D2237E331009FB6B1 /* despacito.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEAB3EBB37390BE12ED59C2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJVideoGenerateDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65D3F52421D229DD0067991F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D2144B223A4BDE003B0100 /* DJCompleteVideoPathManager.m in Sources */,
+				652801532237ACB5009FB6B1 /* DJAudioHandleManager.m in Sources */,
+				65D3F53B21D229DF0067991F /* main.m in Sources */,
+				65D3F54321D22A830067991F /* MainViewController.m in Sources */,
+				652801562237AD1C009FB6B1 /* DJAudioPathManager.m in Sources */,
+				65D3F54921D22AA00067991F /* DJVideoGenerateManager.m in Sources */,
+				65D3F52D21D229DD0067991F /* AppDelegate.m in Sources */,
+				6593B7E42271AD6400E4B204 /* MainTableView.m in Sources */,
+				65D3F54A21D22AA00067991F /* DJVideoPathManager.m in Sources */,
+				652801592237B36A009FB6B1 /* DJVideo.m in Sources */,
+				65280143223114DD009FB6B1 /* NSURL+Extension.m in Sources */,
+				6559B983225DCED600FF4D5B /* DJAudioDownloadManager.m in Sources */,
+				652801402230FDC6009FB6B1 /* NSString+Tool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65D3F53621D229DF0067991F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D3F53721D229DF0067991F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65D3F53C21D229DF0067991F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65D3F53D21D229DF0067991F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65D3F53F21D229DF0067991F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3DF94C3A51F35E394FCDE9 /* Pods-DJVideoGenerateDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJVideoGenerateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.DJVideoGenerateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D3F54021D229DF0067991F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AF9428FFDAE00B6AE964F1 /* Pods-DJVideoGenerateDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJVideoGenerateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.DJVideoGenerateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65D3F52321D229DD0067991F /* Build configuration list for PBXProject "DJVideoGenerateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D3F53C21D229DF0067991F /* Debug */,
+				65D3F53D21D229DF0067991F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D3F53E21D229DF0067991F /* Build configuration list for PBXNativeTarget "DJVideoGenerateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D3F53F21D229DF0067991F /* Debug */,
+				65D3F54021D229DF0067991F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65D3F52021D229DD0067991F /* Project object */;
+}
