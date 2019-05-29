@@ -16,5 +16,7 @@
 #import "DJAudioHandleManager.h"
 #import "DJAudioPathManager.h"
 #import <AVFoundation/AVFoundation.h>
+#import "NSURL+Extension.h"
+#import "NSString+Tool.h"
 
 #endif /* DJVideoHeader_h */

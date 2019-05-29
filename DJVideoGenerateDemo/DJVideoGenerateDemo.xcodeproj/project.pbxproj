@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		652801402230FDC6009FB6B1 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528013E2230FDC6009FB6B1 /* NSString+Tool.m */; };
-		65280143223114DD009FB6B1 /* NSURL+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 65280141223114DD009FB6B1 /* NSURL+Extension.m */; };
 		65280147223253BD009FB6B1 /* 01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65280145223253BD009FB6B1 /* 01.gif */; };
 		65280148223253BD009FB6B1 /* 02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65280146223253BD009FB6B1 /* 02.gif */; };
 		6528014D223794B1009FB6B1 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65280149223794B1009FB6B1 /* 03.jpg */; };
@@ -19,6 +17,8 @@
 		652801562237AD1C009FB6B1 /* DJAudioPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 652801552237AD1C009FB6B1 /* DJAudioPathManager.m */; };
 		652801592237B36A009FB6B1 /* DJVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 652801582237B36A009FB6B1 /* DJVideo.m */; };
 		6528015D2237E331009FB6B1 /* despacito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6528015C2237E331009FB6B1 /* despacito.mp3 */; };
+		6533DEEE229E866500712AD6 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533DEEA229E866500712AD6 /* NSString+Tool.m */; };
+		6533DEEF229E866500712AD6 /* NSURL+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533DEED229E866500712AD6 /* NSURL+Extension.m */; };
 		6559B983225DCED600FF4D5B /* DJAudioDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6559B982225DCED600FF4D5B /* DJAudioDownloadManager.m */; };
 		658AC3A621DCB4E7002EDD43 /* haha.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 658AC3A521DCB4E7002EDD43 /* haha.jpeg */; };
 		6593B7E42271AD6400E4B204 /* MainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6593B7E32271AD6400E4B204 /* MainTableView.m */; };
@@ -35,10 +35,6 @@
 
 /* Begin PBXFileReference section */
 		23AF9428FFDAE00B6AE964F1 /* Pods-DJVideoGenerateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJVideoGenerateDemo.release.xcconfig"; path = "Target Support Files/Pods-DJVideoGenerateDemo/Pods-DJVideoGenerateDemo.release.xcconfig"; sourceTree = "<group>"; };
-		6528013E2230FDC6009FB6B1 /* NSString+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
-		6528013F2230FDC6009FB6B1 /* NSString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
-		65280141223114DD009FB6B1 /* NSURL+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extension.m"; sourceTree = "<group>"; };
-		65280142223114DD009FB6B1 /* NSURL+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extension.h"; sourceTree = "<group>"; };
 		65280145223253BD009FB6B1 /* 01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 01.gif; sourceTree = "<group>"; };
 		65280146223253BD009FB6B1 /* 02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 02.gif; sourceTree = "<group>"; };
 		65280149223794B1009FB6B1 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
@@ -52,6 +48,10 @@
 		652801572237B36A009FB6B1 /* DJVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJVideo.h; sourceTree = "<group>"; };
 		652801582237B36A009FB6B1 /* DJVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJVideo.m; sourceTree = "<group>"; };
 		6528015C2237E331009FB6B1 /* despacito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = despacito.mp3; sourceTree = "<group>"; };
+		6533DEEA229E866500712AD6 /* NSString+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
+		6533DEEB229E866500712AD6 /* NSURL+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extension.h"; sourceTree = "<group>"; };
+		6533DEEC229E866500712AD6 /* NSString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
+		6533DEED229E866500712AD6 /* NSURL+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extension.m"; sourceTree = "<group>"; };
 		6559B981225DCED600FF4D5B /* DJAudioDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJAudioDownloadManager.h; sourceTree = "<group>"; };
 		6559B982225DCED600FF4D5B /* DJAudioDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJAudioDownloadManager.m; sourceTree = "<group>"; };
 		658AC3A521DCB4E7002EDD43 /* haha.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haha.jpeg; sourceTree = "<group>"; };
@@ -104,17 +104,6 @@
 				23AF9428FFDAE00B6AE964F1 /* Pods-DJVideoGenerateDemo.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		6528013D2230FD57009FB6B1 /* tools */ = {
-			isa = PBXGroup;
-			children = (
-				6528013F2230FDC6009FB6B1 /* NSString+Tool.h */,
-				6528013E2230FDC6009FB6B1 /* NSString+Tool.m */,
-				65280142223114DD009FB6B1 /* NSURL+Extension.h */,
-				65280141223114DD009FB6B1 /* NSURL+Extension.m */,
-			);
-			path = tools;
 			sourceTree = "<group>";
 		};
 		65280144223253B3009FB6B1 /* source */ = {
@@ -172,7 +161,6 @@
 		65D3F54421D22AA00067991F /* DJVideoGenerate */ = {
 			isa = PBXGroup;
 			children = (
-				6528013D2230FD57009FB6B1 /* tools */,
 				652801572237B36A009FB6B1 /* DJVideo.h */,
 				652801582237B36A009FB6B1 /* DJVideo.m */,
 				65D3F54821D22AA00067991F /* DJVideoGenerateManager.h */,
@@ -187,6 +175,10 @@
 				652801552237AD1C009FB6B1 /* DJAudioPathManager.m */,
 				65D21449223A4BDE003B0100 /* DJCompleteVideoPathManager.h */,
 				65D2144A223A4BDE003B0100 /* DJCompleteVideoPathManager.m */,
+				6533DEEC229E866500712AD6 /* NSString+Tool.h */,
+				6533DEEA229E866500712AD6 /* NSString+Tool.m */,
+				6533DEEB229E866500712AD6 /* NSURL+Extension.h */,
+				6533DEED229E866500712AD6 /* NSURL+Extension.m */,
 				65D3F54B21D22B5A0067991F /* DJVideoHeader.h */,
 			);
 			path = DJVideoGenerate;
@@ -301,13 +293,13 @@
 				65D3F54321D22A830067991F /* MainViewController.m in Sources */,
 				652801562237AD1C009FB6B1 /* DJAudioPathManager.m in Sources */,
 				65D3F54921D22AA00067991F /* DJVideoGenerateManager.m in Sources */,
+				6533DEEF229E866500712AD6 /* NSURL+Extension.m in Sources */,
 				65D3F52D21D229DD0067991F /* AppDelegate.m in Sources */,
+				6533DEEE229E866500712AD6 /* NSString+Tool.m in Sources */,
 				6593B7E42271AD6400E4B204 /* MainTableView.m in Sources */,
 				65D3F54A21D22AA00067991F /* DJVideoPathManager.m in Sources */,
 				652801592237B36A009FB6B1 /* DJVideo.m in Sources */,
-				65280143223114DD009FB6B1 /* NSURL+Extension.m in Sources */,
 				6559B983225DCED600FF4D5B /* DJAudioDownloadManager.m in Sources */,
-				652801402230FDC6009FB6B1 /* NSString+Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +435,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DJVideoGenerateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DJVideoGenerateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
