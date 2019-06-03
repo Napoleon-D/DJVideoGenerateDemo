@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 s.name        = "DJVideoGenerate"
 
-s.version     = "1.0.8"
+s.version     = "1.0.9"
 
 s.platform = :ios, "9.0"
 
@@ -22,8 +22,6 @@ s.license     = { :type => "MIT", :file => "LICENSE" }
 
 s.requires_arc = true
 
-# s.dependency "SDWebImage"
-
-s.dependency = 'SDWebImage', '~> 5.0.0-beta3'
+s.dependency "SDWebImage", "~> 5.0.0-beta3"
 
 end
