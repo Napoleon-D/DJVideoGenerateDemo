@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 s.name        = "DJVideoGenerate"
 
-s.version     = "1.0.1"
+s.version     = "1.0.3"
 
 s.platform = :ios, "9.0"
 
