@@ -16,7 +16,7 @@ s.author     = { "ox-man" => "wangtao199205@qq.com" }
 
 s.source      = { :git => "https://github.com/ox-man/DJVideoGenerateDemo.git",:tag => s.version.to_s}
 
-s.source_files = "DJVideoGenerateDemo/DJVideoGenerateDemo/DJVideoGenerate/*.{h,m}"
+s.source_files = "DJVideoGenerateDemo/DJVideoGenerate/*.{h,m}"
 
 s.license     = { :type => "MIT", :file => "LICENSE" }
 
